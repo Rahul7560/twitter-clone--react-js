@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Roboto&display=swap');
+.postFirstDiv{
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px  rgb(209, 208, 204);;
+}
+.postHeading{
+    display: flex;
+}
+.firstPost > img {
+    width: 100%;
+
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.firstAvatar{
+    padding:20px;
+
+}
+.firstPost{
+    margin-right: 20px;
+    margin-top:25px;
+    width: 100%;
+}
+.postAuthorName{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;}
+.postAuthorName >span{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: rgb(102, 101, 101);
+}
+.postStatement{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(61, 66, 68);
+
+    max-width: fit-content;
+    
+    font-family: 'PT Sans', sans-serif;
+
+
+}
+.postSecondDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+
+}

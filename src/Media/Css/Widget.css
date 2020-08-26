@@ -1,0 +1,33 @@
+.widgetMain{
+    margin: 20px;
+    flex: 0.3;
+}
+.widgetSearch{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(208, 230, 238);
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    
+}
+.widgetSearch > input {
+    width: 100%;
+    border:none;
+    background-color:transparent;
+     border-radius: 30px;
+
+}
+*:focus {
+    outline: none;
+}
+.iconSearchWidget{
+    padding:10px;
+}
+.Tweetembed{ 
+    padding: 10px !important;
+    padding-bottom: 10px !important;
+    border-radius: 30px !important;
+    background-color: rgb(208, 230, 238) !important;
+
+ }

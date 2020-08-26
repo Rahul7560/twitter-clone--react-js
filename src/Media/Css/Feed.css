@@ -1,0 +1,22 @@
+.feedSection{
+    flex: 0.7;
+    border-right: solid 1px  rgb(209, 208, 204);
+    min-width: 500px;
+    overflow-y: scroll;
+
+}
+.feedSection::-webkit-scrollbar{
+    display: none ;
+}
+.feedHeader{
+    border-bottom: solid 1px  rgb(209, 208, 204);
+    padding :15px 20px ;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+
+}
